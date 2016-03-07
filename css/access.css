@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	font-family: 'Bree Serif', serif;
+	font-weight: 400;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	*/
+}
+
+.principal{
+	padding: 0.2em 1em;
+	background-image: url(../img/polis_maturin.jpg);
+	background-size: contain;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.container{
+	margin: 0 auto;
+	padding: 1em;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.form-content{
+	transition: all 0.5s;
+	width: 50%;
+	margin: 1em auto;
+	padding: 2em;
+	border: 2px solid #1e3d7e;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.form-content:hover{
+	box-shadow: 2px 2px 5px #000;
+}
+
+.form-content h1{
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	margin-bottom: 1em;
+}
+
+.form-content h1 span{
+	font-size: 2em;
+	margin-right: 0.2em;
+}
+
+.form-content strong{
+	font-family: 'Bree Serif', serif;
+	font-weight: 400;
+	font-size: 1em;
+}
+
+.form-content strong span{
+	margin-right: 0.5em;
+}
+
+.controls{
+	position: relative;
+	margin: 0.2em;
+	padding: 0.5em;
+	box-sizing: border-box;
+}
+
+.controls .etiqueta, .controls .text-box{
+	display: block;
+}
+
+.controls .etiqueta{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+
+.controls .etiqueta span{
+	margin-right: 0.5em;
+}
+
+.controls .text-box, .controls .text-box-combo{
+	padding: 0.5em 0.2em;
+	font-family: 'Bree Serif', serif;
+	font-weight: 400;
+	font-size: 1.1em;
+	box-sizing: border-box;
+}
+
+.controls .text-box{
+	width: 100%;
+}
+
+.controls .text-box.combo{
+	width: 89%;
+	display: inline-block;
+}
+
+.controls .combo-box{
+	width: 10%;
+	display: inline-block;
+	padding: 0.5em 0.2em;
+	font-size: 1.1em;
+	box-sizing: border-box;
+}
+
+.controls .button{
+	transition: all 0.5s;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	position: absolute;
+	top: 0;
+	right: 1.5%;
+	padding: 0.5em;
+	background-color: #1e3d7e;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.controls .button:hover{
+	box-shadow: 2px 2px 5px #000;
+	font-size: 1.2em;
+}
+
+.controls .link{
+	transition: all 0.5s;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	margin-right: 1em;
+	padding: 0.7em;
+	color: #1e3d7e;
+	box-sizing: border-box;
+}
+
+.controls .link span{
+	margin-right: 0.5em;
+	font-size: 1.5em;
+}
+
+.controls .link:hover{
+	background-color: #1e3d7e;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #000;
+}

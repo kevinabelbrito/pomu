@@ -1,0 +1,252 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	font-family: 'Bree Serif', serif;
+	font-weight: 400;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	*/
+}
+
+.principal{
+	padding: 1em;
+}
+
+.principal .logo{
+	width: 30%;
+	float: left;
+}
+
+.principal .session{
+	width: 30%;
+	float: right;
+}
+
+.principal .session strong{
+	font-family: 'Bree Serif', serif;
+	font-weight: 400;
+}
+
+.principal .session .buttons{
+	margin-top: 1em;
+	padding: 0;
+}
+
+.principal .session .buttons a{
+	transition: all 0.5s;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	margin-right: 0.5em;
+	padding: 0.5em;
+	text-decoration: none;
+	background-color: #fff;
+	color: #1e3d7e;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #1e3d7e;
+}
+
+.principal .session .buttons a:hover{
+	background-color: #1e3d7e;
+	color: #fff;
+	box-shadow: 2px 2px 5px #000;
+}
+
+.principal .session .buttons a span{
+	margin-right: 0.2em;
+}
+
+.main{
+	float: left;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.main .menu-principal{
+	position: absolute;
+	width: 20%;
+	top: 0;
+	left: 0;
+	background-color: #c6dfb6;
+	box-sizing: border-box;
+}
+
+.menu-principal .menu li{
+	position: relative;
+	list-style: none;
+}
+
+.menu-principal .menu li a{
+	transition: all 0.5s;
+	text-decoration: none;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	padding: 1em;
+	background-color: #1e3d7e;
+	color: #fff;
+	border-bottom: 2px solid #000;
+	box-sizing: border-box;
+	display: block;
+}
+
+li a span{
+	font-size: 1.2em;
+	margin-right: 0.5em;
+}
+
+.menu-principal .menu li a:hover{
+	background-color: #fff;
+	color: #1e3d7e;
+}
+
+.menu-principal .menu .submenu{
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 100%;
+}
+
+.menu-principal .menu li:hover > .submenu{
+	display: block;
+	width: 70%;
+}
+
+.container{
+	position: absolute;
+	width: 70%;
+	top: 0;
+	right: 0;
+	padding: 1em 4em;
+	box-sizing: border-box;
+}
+
+.container h2{
+	font-family: 'Bitter', serif;
+	font-weight: 700;
+	margin-bottom: 0.3em;
+}
+
+.container span{
+	margin-right: 0.3em;
+}
+
+.container h2 span, form-content h2 span{
+	font-size: 1.2em;
+	margin-right: 0.5em;
+}
+
+.container table{
+	box-sizing: border-box;
+}
+
+.container td, .container th{
+	padding: 0.2em 0;
+}
+
+.container th{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+
+.container strong, .form-content strong{
+	font-family: 'Bree Serif', serif;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+
+.container strong, .form-content strong span{
+	margin-right: 0.5em;
+}
+
+.form-content label{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.3em;
+}
+
+.form-content label span{
+	margin-right: 0.5em;
+}
+
+.form-content .write-box, .form-content .combo-box{
+	font-family: 'Bree Serif', serif;
+	font-weight: 400;
+	font-size: 1.1em;
+	padding: 0.5em 0.1em;
+	box-sizing: border-box;
+}
+
+.form-content .write-box{
+	width: 100%;
+}
+
+.form-content .write-box.combo{
+	width: 72%;
+}
+
+.form-content .combo-box{
+	max-width: 100%;
+	min-width: 18%;
+}
+
+.container td{
+	padding: 0.5em 0.2em;
+	font-family: 'Bree Serif', serif;
+	font-weight: 400;
+}
+
+.form-content .button{
+	transition: all 0.5s;
+	padding: 0.5em;
+	margin-right: 0.5em;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	border: none;
+	border-radius: 5px;
+	background-color: #1e3d7e;
+	color: #fff;
+	box-shadow: 2px 2px 5px #000;
+	cursor: pointer;
+}
+
+.form-content .button:hover{
+	background-color: #fff;
+	color: #1e3d7e;
+	box-shadow: 2px 2px 5px #1e3d7e;
+}
+
+.form-content .buttons{
+	padding: 0.5em;
+}
+
+.container .buttons a{
+	transition:all 0.5s;
+	font-family: 'Muli', sans-serif;
+	font-weight: 400;
+	text-decoration: none;
+	margin-right: 0.5em;
+	padding: 0.5em;
+	background-color: #fff;
+	color: #1e3d7e;
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #1e3d7e;
+	box-sizing: border-box;
+}
+
+.container .buttons a span{
+	font-size: 1.2em;
+	margin-right: 0.2em;
+}
+
+.container .buttons a:hover{
+	background-color: #1e3d7e;
+	color: #fff;
+	box-shadow: 2px 2px 5px #000;
+}
